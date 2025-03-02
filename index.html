@@ -304,43 +304,73 @@
     </section>
 
      <!-- Services Section -->
-     <section id="services" class="services">
-        <div class="main-text scroll-scale">
-            <span>What I Offer</span>
-            <h2>Services</h2>
-        </div>
+<section id="services" class="services">
+    <div class="main-text scroll-scale">
+        <span>What I Offer</span>
+        <h2>Services</h2>
+    </div>
 
-        <div class="services-content scroll-scale">
-            <p>I provide a comprehensive range of data analysis services designed to help businesses harness the power of their data.</p>
+    <div class="services-content scroll-scale">
+        <p>I provide a comprehensive range of data analysis services designed to help businesses harness the power of their data.</p>
 
-            <div class="services-list">
-                <div class="service-item">
-                    <h3>Data Cleaning and Preparation</h3>
-                    <p>Ensuring your data is accurate, consistent, and ready for analysis.</p>
-                </div>
+        <div class="services-list">
+            <div class="service-item">
+                <h3>Data Cleaning and Preparation</h3>
+                <p>Ensuring your data is accurate, consistent, and ready for analysis.</p>
+            </div>
 
-                <div class="service-item">
-                    <h3>Descriptive and Predictive Analysis</h3>
-                    <p>Uncovering patterns and predicting future trends using statistical methods and machine learning.</p>
-                </div>
+            <div class="service-item">
+                <h3>Descriptive and Predictive Analysis</h3>
+                <p>Uncovering patterns and predicting future trends using statistical methods and machine learning.</p>
+            </div>
 
-                <div class="service-item">
-                    <h3>Data Visualization</h3>
-                    <p>Creating clear and insightful visualizations to communicate findings effectively.</p>
-                </div>
+            <div class="service-item">
+                <h3>Data Visualization</h3>
+                <p>Creating clear and insightful visualizations to communicate findings effectively.</p>
+            </div>
 
-                <div class="service-item">
-                    <h3>Business Intelligence</h3>
-                    <p>Designing dashboards and reports that provide real-time insights.</p>
-                </div>
+            <div class="service-item">
+                <h3>Business Intelligence</h3>
+                <p>Designing dashboards and reports that provide real-time insights.</p>
             </div>
         </div>
+    </div>
 
-        <div class="why-choose-me scroll-scale">
-            <h2>Why Choose Me</h2>
-            <p>Choosing me means partnering with a dedicated professional who is committed to delivering high-quality analytical solutions. My methodical approach and attention to detail ensure that you receive insights that are both accurate and actionable. Let's work together to unlock the full potential of your data.</p>
-        </div>
-    </section>
+    <div class="why-choose-me scroll-scale">
+        <h2>Why Choose Me</h2>
+        <p>Choosing me means partnering with a dedicated professional who is committed to delivering high-quality analytical solutions. My methodical approach and attention to detail ensure that you receive insights that are both accurate and actionable. Let's work together to unlock the full potential of your data.</p>
+    </div>
+</section>
+
+<style>
+    .services-list {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        margin-top: 20px;
+    }
+
+    .service-item {
+        background: transparent;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        transition: transform 0.3s ease, background 0.3s ease;
+        border: 2px solid #12f7ff;
+    }
+
+    .service-item h3 {
+        color: #12f7ff;
+    }
+
+    .service-item:hover {
+        transform: translateY(-5px);
+        background: #056063;
+        color: white;
+    }
+</style>
+
     <!--contact section ------------------------------------------------------------->
     <section id="contact" class="contact">
         <div class="main-text scroll-scale show-items">
